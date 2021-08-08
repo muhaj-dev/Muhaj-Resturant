@@ -14,7 +14,8 @@ nav{
     background: rgba(29, 29, 29, 0.836);
     width: 100%;
     display: flex;
-    padding: 10px 20px;
+    margin: 0 auto;
+    padding: 10px 70px;
     position: fixed;
     z-index: 992;
 }
@@ -36,13 +37,13 @@ label #cancel {
     align-items: center;
 }
 .nav-logo{
-    color: rgb(204, 202, 202);
+    color: white;
     font-size: 30px;
     line-height: 40px;
     padding: 0 10px;
     font-weight: bolder;
     border-radius: 15px;
-    border: 3px solid rgb(204, 202, 202);
+    border: 3px solid white;
 }
 
 .nav-menu {
@@ -59,7 +60,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(204, 202, 202);
+    color: white;
     font-size: 16px;
     padding-bottom: 4px;
     border-radius: 10px;
@@ -299,7 +300,7 @@ nav ul li a {
     width: 80%;
     text-align: center;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
 }
 
@@ -417,11 +418,11 @@ figure {
     overflow: hidden;
 }
 .gallery-img img {
-    width: 100%;
-    transition: 1s;
+    transform: scale(1.05);
+    transition: .6s;
 }
 .gallery-img img:hover {
-    transform: scale(1.1) ;
+    transform: scale(1.2) ;
 }
 
 
@@ -548,13 +549,18 @@ textarea {
 }
 button {
     background-color: #aa8544;
-    color: rgb(204, 202, 202);
+    color: white;
     border: 3px solid #aa8544;
     padding: 10px 30px;
     border-radius: 30px;
     font-size: 20px;
     cursor: pointer;
 }
+button:hover {
+    background-color: #c29343;
+
+}
+
 
 /* contact page  */
 
@@ -640,9 +646,15 @@ button {
 }
 div .send-message {
     margin: 30px auto;
-    background-color: #cda45e;
+    color: white;
+    background-color: #aa8544;
     padding: auto auto;
 }
+div .send-message:hover {
+    background-color: #c29343;
+}
+
+
 .send-message-container {
     text-align: center;
 }
@@ -709,6 +721,9 @@ address {
     font-family: sans-serif;
 
 }
+div a {
+    color: white;
+}
 div .sub {
     padding: 15px;
     border-radius: 30px;
@@ -757,6 +772,9 @@ p span {
     /* nav style  */
 
 
+    nav {
+    padding: 10px 50px;
+    }
     .nav-menu {
         margin-right: 0px;
     }
@@ -838,6 +856,9 @@ p span {
         margin: 20px auto;
         width: 700px;
     }
+    .first, .second, .thrid {
+        height: 220px;
+    }
 
     /* TESTIMONY PAGE  */
 
@@ -860,6 +881,9 @@ p span {
     }
     .slide-container {
         width: 600px;
+    }
+    .name p {
+        font-size: 15px;
     }
 
 
@@ -1135,6 +1159,14 @@ p span {
         width: 100%;
     }
 
+    .first, .thrid {
+        height: 90%;
+    }
+    
+    .one-heading {
+        font-size: 20px;
+    }
+
 
 
     /* TESTIMONY PAGE  */
@@ -1159,6 +1191,9 @@ p span {
     .slide-container {
         width: 90%;
     }
+    .slide-container h3 {
+        font-size: 13px;
+    }
     
     .test-img {
         width: 25%;
@@ -1167,7 +1202,7 @@ p span {
         font-size: 15px;
     }
     .name p {
-        font-size: 1px;
+        font-size: 13px;
     }
        
 
